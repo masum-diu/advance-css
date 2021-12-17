@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+}
+.header {
+  height: 95vh;
+  background-image: url(./img/1.png);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  position: relative;
+}
+.log-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.log-box a {
+  color: #ffff;
+  font-size: 28px;
+  letter-spacing: 4px;
+  font-weight: 900;
+  cursor: pointer;
+  text-decoration: none;
+}
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-box h1 {
+  color: rgba(245, 245, 245, 0.609);
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing: 10px;
+}
+.text-box p {
+  font-weight: 200;
+  color: black;
+  padding: 10px;
+}
+.Button {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: rgba(245, 244, 244, 0.767);
+  background-color: rgba(42, 95, 241, 0.808);
+  letter-spacing: 2px;
+}
+.Button:hover {
+  background-color: rgba(20, 104, 240, 0.596);
+}
